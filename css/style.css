@@ -108,6 +108,7 @@ header{
 
 .banner-img img{
     max-width: 100%;
+    
 }
 .button{
     display: inline-flex;
@@ -138,4 +139,132 @@ header{
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
     padding: 30px 10px;
  
+}
+/* ================================== */
+.main-area-title-h1{
+    color: #F948B2;
+}
+.img-block{
+ height : 400px
+}
+.vide-box-img{
+    position: relative;
+    overflow: hidden;
+    height : 370px;
+    border-radius: 14px;
+    transition: all 0.3s linear;
+}
+.video-box-description{
+    padding-top: 30px;
+}
+.vide-box-img:hover .video-box-second{
+    margin-top: 0%;
+}
+.video-box-second{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    border-radius: 14px;
+    display: flex;
+    margin-top: 200%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 4px solid #FF42A5;
+    background-color: #000000b4;
+    transition: all 0.3s linear;
+    z-index: 100;
+}
+
+.hover-btn{
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+
+
+}
+.hover-text{
+    color: #F948B2;
+    margin-top: 80px;
+    position: absolute;
+}
+ /* video section */
+ .video-button{
+    max-width: 1400px;
+    margin: 0 auto;
+} 
+.video-button h1{
+    text-align: center;
+    font-size: 40px;
+}
+.funny-span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.video-button {
+    text-align: center;
+    padding: 30px 0;
+    color: rgba(83, 76, 100, 1);
+    
+}
+.video-box-area{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 30px;
+   
+}
+.video-box{
+    padding-top:30px ;
+    width: 23%;
+    text-align: left;
+
+}
+.video-box img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+/* ============================== */
+.main-area{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 100px 10px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.main-area-title{
+    width: 45%;
+    text-align: end;
+    padding-right: 60px;
+
+}
+.main-area-img{
+    width: 45%;
+    position: relative;
+
+}
+.second-img{
+    position: absolute;
+    margin-top: -300px;
+    margin-right: -200px;
+    margin-left: -105px;
+}
+.main-area-title p{
+    font-size: 20px;
+    line-height: 30px;
+    padding: 40px 0;
 }
