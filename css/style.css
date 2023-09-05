@@ -83,10 +83,11 @@ header{
     font-size: 95px;
     font-weight: 800;
     padding: 10px 0;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    
 }
 .banner-title h2{
     color: #0B0223;
