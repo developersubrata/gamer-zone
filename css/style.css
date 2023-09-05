@@ -134,12 +134,6 @@ header{
     background-color : #4EC5F7;
     border: none;
 }
-/* gamer-section */
-.gamer-section{
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
-    padding: 30px 10px;
- 
-}
 /* ================================== */
 .main-area-title-h1{
     color: #F948B2;
@@ -238,7 +232,7 @@ header{
     padding-bottom: 20px;
 }
 /* ============================== */
-.main-area{
+.play-instantly{
     max-width: 1400px;
     margin: 0 auto;
     padding: 100px 10px;
@@ -246,25 +240,87 @@ header{
     gap: 50px;
     align-items: center;
 }
-.main-area-title{
+.play-instantly-title{
     width: 45%;
     text-align: end;
     padding-right: 60px;
 
 }
-.main-area-img{
+.play-instantly-img{
     width: 45%;
     position: relative;
 
 }
-.second-img{
+.play-instantly-img-little{
     position: absolute;
     margin-top: -300px;
     margin-right: -200px;
     margin-left: -105px;
 }
-.main-area-title p{
+.play-instantly-title p{
     font-size: 20px;
     line-height: 30px;
     padding: 40px 0;
 }
+/* ------------------------------------ */
+.icon-box-area{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    margin-top: 50px; 
+   
+}
+.icon-box-section{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 50px 120px;
+    display: grid;
+    row-gap: 40px;
+    grid-template-columns: repeat(5 ,1fr);
+}
+.icon-box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 8px;
+    border: 2px solid #fff;
+
+}
+.icon-box:hover{
+    border: 2px solid #F948B2;
+    color: #8758F1;
+
+}
+.third-icon-box{
+    border: 2px solid #F948B2;
+}
+
+/* footer------------------------ */
+footer{
+    background: rgba(11, 2, 35, 1);
+    color: #FFF;
+    text-align: center;
+    padding: 50px 0;
+}
+.footer-title{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.sub-footer{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 30px 0;
+    font-size: 18px;
+}
+.icon-box-footer{
+    display: grid;
+    grid-template-columns: repeat(6 ,1fr);
+    padding: 30px 0;
+    font-size: 30px;
+}
+.terms-privacy{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-bottom: 30px;
+    font-size: 20px;
+}   
