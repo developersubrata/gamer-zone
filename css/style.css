@@ -25,10 +25,10 @@ header{
     display: flex;
     max-width: 1400px;
     margin: 0 auto;
+    padding: 40px 10px;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding: 40px 10px;
 }
 .logo-container{
     display: flex;
@@ -56,9 +56,10 @@ header{
 }
 .nav-items-container a{
     text-decoration: none;
+    color: #3C354F;
     font-size: 18px;
     font-weight: 500;
-    color: #3C354F;
+    
 
 }
 .nav-icon{
@@ -70,9 +71,9 @@ header{
 .banner-container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 30px 10px;
     gap: 40px;
+    justify-content: space-between;
 
 }
 .banner-title{
@@ -82,10 +83,10 @@ header{
     font-size: 95px;
     font-weight: 800;
     padding: 10px 0;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 }
 .banner-title h2{
     color: #0B0223;
@@ -94,8 +95,9 @@ header{
 }
 .banner-title p{
     color: #534C64;
-    font-size: 20px;
     padding: 15px 0;
+    font-size: 20px;
+    
 }
 .banner-icon{
     color:#ff42a5 ;
@@ -109,26 +111,26 @@ header{
 .button{
     display: inline-flex;
     align-items: flex-start;
-    gap: 10px;
-    border-radius: 48px;
     font-size: 20px;
     font-weight: 600;
-    background-color: #ff42a5;
     border: none;
     color: #fff;
     padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    background-color: #ff42a5;
 }
 .button-two{
     display: inline-flex;
     align-items: flex-start;
-    gap: 10px;
-    border-radius: 48px;
     font-size: 20px;
     font-weight: 600;
-    background-color : #4EC5F7;
-    border: none;
     color: #fff;
     padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    background-color : #4EC5F7;
+    border: none;
 }
 /* gamer-section */
 .gamer-section{
